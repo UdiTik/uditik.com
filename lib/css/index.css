@@ -1,0 +1,21 @@
+/* Fonts */
+@font-face {
+  font-family: 'Mulish';
+  src: url(../fonts/Mulish/static/Mulish-Light.ttf);
+}
+
+@font-face {
+  font-family: 'Mulish-Regular';
+  src: url(../fonts/Mulish/static/Mulish-Regular.ttf);
+}
+
+@font-face {
+  font-family: 'Mulish-Bold';
+  src: url(../fonts/Mulish/static/Mulish-Bold.ttf);
+}
+/* /Fonts */
+
+html {
+  font-family: 'Mulish', Verdana, Geneva, Tahoma, sans-serif;
+  scroll-behavior: smooth;
+}
