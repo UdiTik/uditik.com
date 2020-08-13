@@ -5,25 +5,66 @@
 }
 
 @font-face {
-  font-family: 'Rubik, Light';
-  src: url(../fonts/Rubik/Rubik-Light.ttf);
-}
-
-@font-face {
-  font-family: 'Rubik, Medium';
-  src: url(../fonts/Rubik/Rubik-Medium.ttf);
-}
-
-@font-face {
   font-family: 'Rubik, Bold';
   src: url(../fonts/Rubik/Rubik-Bold.ttf);
 }
+/* /Fonts */
 
-body {
-  font-family: 'Rubik', Verdana, Tahoma, sans-serif;
+/* Brand Color */
+.ut-yellow {
+  background-color: #eedb11;
+  color: #000000;
 }
-/* /Fonts */  
+
+.ut-black {
+  background-color: #000000;
+}
+
+.ut-white {
+  background-color: #ffffff;
+}
+
+.ut-lyellow {
+  background-color: #dacb2a;
+}
+
+.ut-gray {
+  background-color: #b8afaf;
+}
+/* /Brand Color */
 
 html {
   scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Rubik';
+}
+
+/* Navbar */
+nav .navbar-nav li a{
+  color: white !important;
+}
+
+nav .navbar-nav li a:hover{
+  color: #000000 !important;
+  background-color: #eedb11 !important;
+}
+
+.nav-link.active {
+  background-color: rgb(11, 90, 121);
+  border-radius: 0.2rem;
+}
+/* /Navbar */
+
+h1 {
+  font-size: 3em;;
+}
+
+.profile-image {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 1px solid #000000;
+  transition: all .5s;
 }
