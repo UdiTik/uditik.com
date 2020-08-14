@@ -10,9 +10,12 @@
 }
 /* /Fonts */
 
+
+
 /* Brand Color */
+/* yellow */
 .ut-yellow {
-  background-color: #eedb11;
+  background-color: #fad02c;
   color: #000000;
 }
 
@@ -20,18 +23,23 @@
   background-color: #000000;
 }
 
-.ut-white {
-  background-color: #ffffff;
-}
-
-.ut-lyellow {
-  background-color: #dacb2a;
-}
-
+/* pewter */
 .ut-gray {
-  background-color: #b8afaf;
+  background-color: #e9eaec;
+}
+
+/* dark blue */
+.ut-dark {
+  background-color: #333652;
+}
+
+/* blue gray */
+.ut-light {
+  background-color: #90adc6;
 }
 /* /Brand Color */
+
+
 
 html {
   scroll-behavior: smooth;
@@ -41,26 +49,22 @@ body {
   font-family: 'Rubik';
 }
 
+
+
 /* Navbar */
 nav .navbar-nav li a{
-  color: white !important;
+  color: #e9eaec !important;
 }
 
 nav .navbar-nav li a:hover{
-  color: #000000 !important;
-  background-color: #eedb11 !important;
-}
-
-.nav-link.active {
-  background-color: rgb(11, 90, 121);
-  border-radius: 0.2rem;
+  color: #333652 !important;
+  background-color: #fad02c !important;
 }
 /* /Navbar */
 
-h1 {
-  font-size: 3em;;
-}
 
+
+/* home */
 .profile-image {
   width: 200px;
   height: 200px;
@@ -68,3 +72,4 @@ h1 {
   border: 1px solid #000000;
   transition: all .5s;
 }
+/* /home */
