@@ -12,6 +12,29 @@
 
 
 
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Rubik';
+}
+
+
+
+/* Navbar */
+nav .navbar-nav li a{
+  color: #e9eaec;
+}
+
+nav .navbar-nav li a:hover{
+  color: #333652;
+  background-color: #fad02c;
+}
+/* /Navbar */
+
+
+
 /* Brand Color */
 /* yellow */
 .ut-yellow {
@@ -38,29 +61,6 @@
   background-color: #90adc6;
 }
 /* /Brand Color */
-
-
-
-html {
-  scroll-behavior: smooth;
-}
-
-body {
-  font-family: 'Rubik';
-}
-
-
-
-/* Navbar */
-nav .navbar-nav li a{
-  color: #e9eaec !important;
-}
-
-nav .navbar-nav li a:hover{
-  color: #333652 !important;
-  background-color: #fad02c !important;
-}
-/* /Navbar */
 
 
 
