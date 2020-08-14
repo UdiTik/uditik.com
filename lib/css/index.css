@@ -20,7 +20,13 @@ body {
   font-family: 'Rubik';
 }
 
+.udit-social a{
+  color: #212529;
+}
 
+.pratik-social a{
+  color: #000000;
+}
 
 /* Navbar */
 nav .navbar-nav li a{
