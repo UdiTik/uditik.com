@@ -102,7 +102,7 @@ nav .navbar-nav li a:hover{
   background-image: url('../../img/uditik-background.png');
 }
 
-.portfolio .card{
+.portfolio .card {
   background-color: #333652;
   color: #e9eaec;
 }
@@ -112,3 +112,10 @@ nav .navbar-nav li a:hover{
   color: #212529;
 }
 /* /portfolio */
+
+
+
+/* services */
+.services {
+  background-image: url('../../img/uditik-background.png');
+}
