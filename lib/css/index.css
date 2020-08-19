@@ -119,3 +119,10 @@ nav .navbar-nav li a:hover{
 .services {
   background-image: url('../../img/uditik-background.png');
 }
+
+.services .card {
+  background-color: #e9eaec;
+  color:#212529;
+  border: 1px solid #000000;
+  border-radius: 2rem;
+}
